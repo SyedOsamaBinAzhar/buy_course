@@ -18,7 +18,7 @@ const Heading = ({text}) => {
 
     return (
         <div>
-            <h1>{heading}</h1>
+            <h1 className="fs-1">{heading}</h1>
         </div>
     )
 }

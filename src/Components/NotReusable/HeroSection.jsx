@@ -5,10 +5,11 @@ import HeroImage from "../../images/heromain.jpg"
 
 //importing Files
 import "./HeroSection.css"
+import Heading from "../Reusable/Heading/Heading"
 
 const HeroSection = () => {
     return (
-        <div>
+        <div className="flex flex-col">
             <img className="heroImageStyling" src={HeroImage}/>
         </div>
     )
