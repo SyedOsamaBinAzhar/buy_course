@@ -1,0 +1,4 @@
+.heroImageStyling{
+    width: 100%;
+    grid-template-rows: minmax(90vh,min-content);
+}

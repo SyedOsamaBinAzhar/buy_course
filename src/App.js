@@ -12,6 +12,7 @@ import Navbar from './Components/Reusable/Navbar/Navbar';
 
 //importing libraries
 import {BrowserRouter,Switch,Route} from "react-router-dom"
+import HeroSection from './Components/NotReusable/HeroSection';
 
 
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <HeroSection/>
         <BrowserRouter>
           <Switch>
             <Route path="/about" component={About}/>
