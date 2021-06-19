@@ -13,6 +13,7 @@ import Navbar from './Components/Reusable/Navbar/Navbar';
 //importing libraries
 import {BrowserRouter,Switch,Route} from "react-router-dom"
 import HeroSection from './Components/NotReusable/HeroSection';
+import OurStory from './Components/NotReusable/OurStory/OurStory';
 
 
 
@@ -22,6 +23,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <HeroSection/>
+      <OurStory/>
         <BrowserRouter>
           <Switch>
             <Route path="/about" component={About}/>
